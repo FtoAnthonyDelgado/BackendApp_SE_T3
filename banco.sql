@@ -94,6 +94,8 @@ CREATE TABLE `sol_creditos` (
 -- Volcado de datos para la tabla `sol_creditos`
 --
 
+
+
 INSERT INTO `sol_creditos` (`id_solicitud`, `cedula`, `nombres`, `apellidos`, `email`, `telefono`, `monto`, `uso`, `tasa`) VALUES
 (1, '1766443157', 'Josue', 'Mena', 'menajosue@gmail.com', '0995125722', 5000, 'Compra de mercaderia', 10);
 
@@ -125,10 +127,6 @@ INSERT INTO `transacciones` (`id_transaccion`, `num_cuenta_ori`, `num_cuenta_des
 (17, 1878300886, 1889348197, 100, '0000-00-00');
 
 --
--- Índices para tablas volcadas
---
-
---
 -- Indices de la tabla `clientes`
 --
 ALTER TABLE `clientes`
@@ -154,10 +152,6 @@ ALTER TABLE `transacciones`
   ADD PRIMARY KEY (`id_transaccion`);
 
 --
--- AUTO_INCREMENT de las tablas volcadas
---
-
---
 -- AUTO_INCREMENT de la tabla `sol_creditos`
 --
 ALTER TABLE `sol_creditos`
@@ -168,10 +162,6 @@ ALTER TABLE `sol_creditos`
 --
 ALTER TABLE `transacciones`
   MODIFY `id_transaccion` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
-
---
--- Restricciones para tablas volcadas
---
 
 --
 -- Filtros para la tabla `cuentas`
